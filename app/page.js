@@ -278,10 +278,10 @@ export default function Home() {
               Let&apos;s build something amazing.
             </p>
             <a
-              href="psekukumpat@email.com"
+              href="[EMAIL_ADDRESS]"
               className="inline-block text-xl md:text-2xl font-mono gradient-text hover:opacity-80 border-b-2 border-violet-500/30 hover:border-violet-400/60 pb-2 transition-all duration-300"
             >
-              your@email.com
+              psekukumpat@email.com
             </a>
           </motion.div>
         </div>
