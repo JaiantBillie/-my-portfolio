@@ -48,7 +48,7 @@ export default function Home() {
           — Frontend Developer
         </motion.p>
         <motion.h1 {...fadeUp(0.1)} className="text-5xl md:text-7xl font-bold leading-tight mb-6">
-          Hi, I'm{' '}
+          Hi, I&apos;m{' '}
           <span className="text-purple-400">Jaian</span>
         </motion.h1>
         <motion.p {...fadeUp(0.2)} className="text-gray-400 text-lg md:text-xl max-w-xl mb-10 leading-relaxed">
@@ -153,8 +153,8 @@ export default function Home() {
           className="border border-gray-800 rounded-2xl p-12 text-center"
         >
           <p className="text-purple-400 font-mono text-sm tracking-widest mb-4">— Get in touch</p>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Let's work together</h2>
-          <p className="text-gray-400 mb-10 text-lg">Open for freelance & full-time opportunities</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Let&apos;s work together</h2>
+          <p className="text-gray-400 mb-10 text-lg">Open for freelance &amp; full-time opportunities</p>
           <a
             href="mailto:your@email.com"
             className="inline-block text-xl md:text-2xl font-mono text-purple-400 hover:text-purple-300 border-b border-purple-400/30 hover:border-purple-300 pb-1 transition"
@@ -166,7 +166,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="border-t border-white/5 px-10 py-6 text-center text-gray-600 text-sm font-mono">
-        Built with Next.js & Tailwind — Jaian © 2025
+        Built with Next.js &amp; Tailwind — Jaian © 2025
       </footer>
 
     </div>
