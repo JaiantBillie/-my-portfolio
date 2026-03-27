@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Jaian | Frontend Developer",
-  description: "Portfolio of Jaian — Frontend Developer specializing in React and Next.js",
+  title: "Jaiant | Junior IT Professional",
+  description: "Portfolio of Jaiant — Junior IT Professional specializing in React and Next.js",
 };
 
 export default function RootLayout({ children }) {

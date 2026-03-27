@@ -161,7 +161,10 @@ export default function Home() {
                   <span className="gradient-text">myself</span>
                 </h2>
                 <p className="text-zinc-400 text-lg leading-relaxed mb-5">
-                  เขียนเล่าเรื่องตัวเองตรงนี้ เช่น ชอบเขียนโค้ด เรียนอยู่ที่ไหน สนใจอะไร ต้องการทำงานแบบไหน
+                  นักศึกษาจบใหม่สายวิศวกรรมคอมพิวเตอร์ มีความตั้งใจและเปิดรับการเรียนรู้สิ่งใหม่ๆ ในสายงาน IT อย่างเต็มที่
+                  มีพื้นฐานจากการทำโปรเจกต์ Web และ Mobile Application โดยมีความถนัดด้านการคิด Logic และนำระบบ/API ต่างๆ มาเชื่อมต่อกัน (System Integration)
+                  คุ้นเคยกับการใช้ AI เข้ามาเป็นผู้ช่วยในการค้นหาแนวทางและ Debug โค้ด กำลังมองหาโอกาสเริ่มต้นการทำงานแบบ Remote เพื่อเรียนรู้กระบวนการทำงานจริงจากทีมงานที่มีประสบการณ์
+                  พร้อมที่จะพัฒนาตัวเองและนำความรู้พื้นฐานที่มีไปต่อยอดให้เกิดประโยชน์กับองค์กรครับ
                 </p>
                 <p className="text-zinc-500 text-base leading-relaxed">
                   Always exploring new technologies and building things that make a difference.
