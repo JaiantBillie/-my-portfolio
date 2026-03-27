@@ -66,7 +66,7 @@ export default function Home() {
       >
         <div className="max-w-6xl mx-auto flex items-center justify-between px-6 md:px-10 py-4">
           <a href="#" className="font-mono text-sm tracking-[0.3em] font-bold gradient-text">
-            JAIAN
+            Jaiant
           </a>
           <div className="flex items-center gap-1">
             {[
@@ -101,7 +101,7 @@ export default function Home() {
             className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-[1.05] mb-8 tracking-tight"
           >
             Hi, I&apos;m{' '}
-            <span className="gradient-text">Jaian</span>
+            <span className="gradient-text">Peeraphat Sekukumpat</span>
           </motion.h1>
 
           <motion.p
@@ -278,7 +278,7 @@ export default function Home() {
               Let&apos;s build something amazing.
             </p>
             <a
-              href="mailto:your@email.com"
+              href="psekukumpat@email.com"
               className="inline-block text-xl md:text-2xl font-mono gradient-text hover:opacity-80 border-b-2 border-violet-500/30 hover:border-violet-400/60 pb-2 transition-all duration-300"
             >
               your@email.com
@@ -294,7 +294,7 @@ export default function Home() {
       >
         <div className="max-w-6xl mx-auto px-6 md:px-10">
           <p className="text-zinc-600 text-sm font-mono">
-            Built with Next.js &amp; Tailwind — Jaian © 2025
+            Built with Next.js &amp; Tailwind — Jaiant © 2025
           </p>
         </div>
       </footer>
