@@ -5,20 +5,20 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white px-8 py-20">
 
-      {/* Hero Section */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
         <p className="text-purple-400 font-mono text-sm tracking-widest mb-4">
-          Frontend Developer
+          Frontend Developer  {/* ← แก้ตำแหน่งของคุณ */}
         </p>
         <h1 className="text-6xl font-bold mb-6">
-          Hi, I'm <span className="text-purple-400">Your Name</span>
+          Hi, I'm <span className="text-purple-400">Jaian</span>  {/* ← ใส่ชื่อจริง */}
         </h1>
         <p className="text-gray-400 text-xl max-w-lg mb-8">
           I build fast, beautiful web apps with React and Next.js.
+          {/* ← แก้คำอธิบายตัวเอง */}
         </p>
         <button className="bg-purple-600 hover:bg-purple-700 px-6 py-3 rounded-lg font-semibold transition">
           View my work
