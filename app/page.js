@@ -38,8 +38,7 @@ const projects = [
     features: [
       "ระบบสแกน QR Code ประจำรถเพื่อดึงข้อมูลและทำรายการทันที",
       "ระบบอนุมัติการใช้งาน (Approval Flow) สำหรับหัวหน้างาน",
-      "อัปเดตข้อมูลแบบ Real-time ลงฐานข้อมูล",
-      "สรุปสถิติการใช้งานรถแต่ละคัน"
+      "อัปเดตข้อมูลแบบ Real-time ลงฐานข้อมูล"
     ],
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "Google App Script"],
     emoji: "🚀",
