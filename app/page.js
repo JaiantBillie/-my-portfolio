@@ -18,30 +18,27 @@ const staggerItem = {
 }
 
 const skills = [
-  "React", "Next.js", "Tailwind CSS", "JavaScript",
-  "TypeScript", "Framer Motion", "Node.js", "Git & GitHub"
+  "React", "Next.js", "Python", "JavaScript",
+  "TypeScript", "Golang", "Node.js", "PyTorch", "Scikit-learn", "Git&Github"
 ]
 
 const projects = [
   {
-    title: "ชื่อโปรเจกต์ 1",
-    desc: "อธิบายโปรเจกต์นี้ว่าทำอะไร ใช้เทคโนโลยีอะไร ผลลัพธ์เป็นอย่างไร",
-    tags: ["React", "Tailwind"],
-    link: "#",
+    title: "Centralized Vehicle Management System",
+    desc: "ระบบจัดการยานพาหนะส่วนกลาง: ช่วยให้องค์กรสามารถติดตาม จัดการ และตรวจสอบยานพาหนะได้อย่างมีประสิทธิภาพ ผ่านการรวมข้อมูลและการแจ้งเตือนแบบเรียลไทม์",
+    tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "Google App Script"],
     emoji: "🚀"
   },
   {
-    title: "ชื่อโปรเจกต์ 2",
-    desc: "อธิบายโปรเจกต์นี้ว่าทำอะไร ใช้เทคโนโลยีอะไร ผลลัพธ์เป็นอย่างไร",
-    tags: ["Next.js", "Node.js"],
-    link: "#",
+    title: "EasyEats — AI-Powered Food Recommendation App",
+    desc: "แพลตฟอร์มแนะนำอาหารอัจฉริยะ: นำเสนอประสบการณ์การค้นหาเมนูอาหารที่เหนือกว่า โดยใช้ AI แนะนำเมนูอาหารจากวัตถุดิบที่คุณมี",
+    tags: ["Flutter (Android)", "Python (Flask)", "TensorFlow Lite"],
     emoji: "⚡"
   },
   {
-    title: "ชื่อโปรเจกต์ 3",
+    title: "SnowballAI — Algorithmic Forex Trading Bot",
     desc: "อธิบายโปรเจกต์นี้ว่าทำอะไร ใช้เทคโนโลยีอะไร ผลลัพธ์เป็นอย่างไร",
-    tags: ["TypeScript", "Framer Motion"],
-    link: "#",
+    tags: ["Python", "PyTorch", "Scikit-learn", "Flask", "MetaTrader 5 API"],
     emoji: "✨"
   },
 ]
@@ -92,7 +89,7 @@ export default function Home() {
           <motion.div {...fadeUp(0)} className="flex items-center gap-3 mb-8">
             <div className="section-divider" />
             <span className="text-violet-400 font-mono text-xs tracking-[0.25em] uppercase">
-              Frontend Developer
+              IT Programmer
             </span>
           </motion.div>
 
@@ -101,7 +98,7 @@ export default function Home() {
             className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-[1.05] mb-8 tracking-tight"
           >
             Hi, I&apos;m{' '}
-            <span className="gradient-text">Peeraphat Sekukumpat</span>
+            <span className="gradient-text">Pheeraphat Sekhukhumpat</span>
           </motion.h1>
 
           <motion.p
@@ -161,10 +158,8 @@ export default function Home() {
                   <span className="gradient-text">myself</span>
                 </h2>
                 <p className="text-zinc-400 text-lg leading-relaxed mb-5">
-                  นักศึกษาจบใหม่สายวิศวกรรมคอมพิวเตอร์ มีความตั้งใจและเปิดรับการเรียนรู้สิ่งใหม่ๆ ในสายงาน IT อย่างเต็มที่
-                  มีพื้นฐานจากการทำโปรเจกต์ Web และ Mobile Application โดยมีความถนัดด้านการคิด Logic และนำระบบ/API ต่างๆ มาเชื่อมต่อกัน (System Integration)
-                  คุ้นเคยกับการใช้ AI เข้ามาเป็นผู้ช่วยในการค้นหาแนวทางและ Debug โค้ด กำลังมองหาโอกาสเริ่มต้นการทำงานแบบ Remote เพื่อเรียนรู้กระบวนการทำงานจริงจากทีมงานที่มีประสบการณ์
-                  พร้อมที่จะพัฒนาตัวเองและนำความรู้พื้นฐานที่มีไปต่อยอดให้เกิดประโยชน์กับองค์กรครับ
+                  นักศึกษาวิศวกรรมคอมพิวเตอร์จบใหม่ สนใจในการพัฒนา Frontend, Backend Development และการเรียนรู้การใช้ AI ช่วยในกระบวนการเขียนโค้ด ได้รับโอกาสฝึกงานที่ PEA ทำให้ได้สัมผัสการทำงานในระบบจริง ตั้งใจเรียนรู้ พัฒนาทักษะอย่างต่อเนื่อง และพร้อมเปิดรับ
+                  คำแนะนำจากทีมงานที่มีประสบการณ์
                 </p>
                 <p className="text-zinc-500 text-base leading-relaxed">
                   Always exploring new technologies and building things that make a difference.
@@ -281,7 +276,7 @@ export default function Home() {
               href="[EMAIL_ADDRESS]"
               className="inline-block text-xl md:text-2xl font-mono gradient-text hover:opacity-80 border-b-2 border-violet-500/30 hover:border-violet-400/60 pb-2 transition-all duration-300"
             >
-              psekukumpat@email.com
+              psekukumpat@gmail.com
             </a>
           </motion.div>
         </div>
