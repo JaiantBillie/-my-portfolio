@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Jaiant | Junior IT Professional",
-  description: "Portfolio of Jaiant — Junior IT Professional specializing in React and Next.js",
+  title: "Jaiant | Junior IT ",
+  description: "Portfolio of Jaiant — Junior IT ",
 };
 
 export default function RootLayout({ children }) {
