@@ -525,9 +525,8 @@ export default function Home() {
             {...fadeUp(0.22)}
             className="text-zinc-400 text-lg md:text-xl max-w-lg mb-12 leading-relaxed"
           >
-            I craft fast, beautiful digital experiences with modern web technologies.
-            Focused on <span className="text-zinc-200">clean code</span> and{' '}
-            <span className="text-zinc-200">delightful interfaces</span>.
+            I am a Computer engineering graduate exploring backend development with <span className="text-zinc-200">Go</span> Python{' '}
+            <span className="text-zinc-200">dand modern web stacks. Building things, breaking things, and learning every day.</span>.
           </motion.p>
 
           <motion.div {...fadeUp(0.32)} className="flex flex-wrap gap-4 mb-16">
@@ -902,10 +901,10 @@ export default function Home() {
                     <div
                       key={idx}
                       className={`relative aspect-square flex items-center justify-center transition-colors ${isHead
-                          ? 'bg-violet-400 shadow-[0_0_8px_rgba(167,139,250,0.6)]'
-                          : isBody
-                            ? 'bg-violet-600/80'
-                            : ''
+                        ? 'bg-violet-400 shadow-[0_0_8px_rgba(167,139,250,0.6)]'
+                        : isBody
+                          ? 'bg-violet-600/80'
+                          : ''
                         }`}
                     >
                       {isFood && (
