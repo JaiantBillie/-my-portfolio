@@ -525,8 +525,7 @@ export default function Home() {
             {...fadeUp(0.22)}
             className="text-zinc-400 text-lg md:text-xl max-w-lg mb-12 leading-relaxed"
           >
-            I am a Computer engineering graduate exploring backend development with <span className="text-zinc-200">Go</span> Python{' '}
-            <span className="text-zinc-200">dand modern web stacks. Building things, breaking things, and learning every day.</span>.
+            เด็กจบใหม่จากวิศวกรรมคอมพิวเตอร์ ที่ชอบทำของ ชอบเรียนรู้ และเชื่อในของเล็กๆ ที่ทำมาอย่างตั้งใจ.
           </motion.p>
 
           <motion.div {...fadeUp(0.32)} className="flex flex-wrap gap-4 mb-16">
